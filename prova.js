@@ -46,21 +46,3 @@ button.addEventListener('click', function(){
         }
     }
 })
-// funzione per estrarre numeri bomba
-  function randomNumber (min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min); 
-   }
-  
-let bombNumber = (randomNumber(1,16));
-console.log(bombNumber)
-
-const bombeEstratte =[]
-
-console.log(bombNumber)
-
- for (let i = 0; i <= 16; i++) {
-        
- }
- console.log(bombNumber)
